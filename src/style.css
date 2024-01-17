@@ -14,3 +14,15 @@
   @apply p-2.5 text-primary border border-primary hover:bg-primary hover:text-white;
   padding: 10px;
 }
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.section-gap {
+  @apply py-16 lg:py-28;
+}
+
+.heading {
+  @apply text-primary text-4xl;
+}

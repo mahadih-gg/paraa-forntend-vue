@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-  <nav>
+  <nav class="mx-auto w-full max-w-screen-xl">
     Navbar
   </nav>
 </template>

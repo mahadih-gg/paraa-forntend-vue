@@ -1,11 +1,15 @@
 <script setup>
 import Footer from './components/Footer.vue';
-import Navbar from './components/Navbar.vue'
+import Navbar from './components/Navbar.vue';
+import CadsePage from './pages/CadsePage.vue';
+
 </script>
 
 <template>
+  <Navbar isOpenSideBar="false" />
+
   <header>
-    <Navbar isOpenSideBar="false" />
+    <CadsePage />
   </header>
 
   <Footer />
